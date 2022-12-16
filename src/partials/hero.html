@@ -1,0 +1,90 @@
+<section class="hero">
+  <div class="container">
+    <div class="hero__content">
+      <div class="hero-title-wrap">
+        <h1 class="hero__title">ice cream made with <span>passion</span></h1>
+        <ul class="hero-nav list">
+          <li class="hero-nav__item">
+            <a href="#products" class="hero-nav__btn hero-nav__btn--red"
+              >Products</a
+            >
+          </li>
+          <li class="hero-nav__item">
+            <a href="#about" class="hero-nav__btn hero-nav__btn--white"
+              >How it’s made?
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul class="cafes-list list">
+        <li class="cafes-list__item">
+          <p class="cafes-list__text--first">cafes</p>
+        </li>
+        <li class="cafes-list__item">
+          <p class="cafes-list__text--second">food trucks</p>
+        </li>
+      </ul>
+    </div>
+    <div class="hero-bottom">
+      <p class="hero-bottom__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et
+      </p>
+      <button type="button" class="hero-bottom__btn"></button>
+    </div>
+
+    <span class="elipse"></span>
+
+    <picture class="icecream animate__fadeInDown animate__animated">
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./images/hero-header-mob-1.png    1x,
+          ./images/hero-header-mob-1-2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 768px) and (max-width: 1279px)"
+        srcset="
+          ./images/hero-header-tab-2.png    1x,
+          ./images/hero-header-tab-2-2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="./images/hero-header-2.png 1x, ./images/hero-header-2-2x.png 2x"
+      />
+      <img src="./images/hero-header-2.png" alt="icecream" />
+    </picture>
+
+    <picture class="girl animate__fadeInRight animate__animated">
+      <source
+        media="(min-width: 768px) and (max-width: 1279px)"
+        srcset="
+          ./images/hero-header-tab-3.png    1x,
+          ./images/hero-header-tab-3-2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="./images/hero-header-3.png 1x, ./images/hero-header-3-2x.png 2x"
+      />
+      <img src="./images/hero-header-3.png" alt="gir" />
+    </picture>
+
+    <picture class="milk animate__animated animate__fadeInLeft">
+      <source
+        media="(min-width: 768px) and (max-width: 1279px)"
+        srcset="
+          ./images/hero-header-tab-1.png    1x,
+          ./images/hero-header-tab-1-2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="./images/hero-header-1.png 1x, ./images/hero-header-1-2x.png 2x"
+      />
+      <img src="./images/hero-header-3.png" alt="milk" />
+    </picture>
+  </div>
+</section>
